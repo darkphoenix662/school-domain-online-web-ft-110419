@@ -17,7 +17,7 @@ class School
   
   def sort 
     sorted_roster = {}
-    roster.sort.each do |grade, students|         #dotnetperls
+    roster.each do |grade, students|         #dotnetperls
     sorted_roster[grade] = students               #stackoverflow
     # puts grade + String(students)               #dotnetperls
     end
